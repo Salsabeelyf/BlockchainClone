@@ -1,0 +1,34 @@
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: sans-serif;
+}
+
+#intro-section{
+    margin-bottom: 200px;
+}
+
+#intro-section div{
+    margin-top: -400px;
+    width: 60%;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+}
+
+#intro-section img{
+    width: 100%;
+    height: 63%;
+}
+
+#intro-section h1{
+    color: white;
+    font-weight: 600;
+    font-size: 300%;
+}
+
+#intro-section h3{
+    color:white;
+    font-size: 150%;
+    font-weight: 500;
+    margin-right: 30%;
+}
