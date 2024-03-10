@@ -5,19 +5,17 @@ body{
 }
 
 #intro-section{
-    margin-bottom: 200px;
+    background-image: url("https://www.blockchain.com/static/img/home/home-hero-gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
 }
 
-#intro-section div{
-    margin-top: -400px;
-    width: 60%;
-    margin-left: 50%;
-    transform: translate(-50%,0%);
-}
-
-#intro-section img{
-    width: 100%;
-    height: 63%;
+#centralDiv{
+    width: 62.5rem;
+    padding-top: 200px;
+    padding-right: 14rem;
+    text-align: left;
 }
 
 #intro-section h1{
@@ -30,5 +28,4 @@ body{
     color:white;
     font-size: 150%;
     font-weight: 500;
-    margin-right: 30%;
 }
