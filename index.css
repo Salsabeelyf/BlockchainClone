@@ -13,7 +13,7 @@ body{
 }
 
 #centralDivContainer{
-    max-width: 62rem;
+    max-width: 67rem;
     margin: 0px auto;
     padding: 0rem 2.5rem;
 }
@@ -47,7 +47,7 @@ body{
     color: white;
     font-weight: 400;
     font-size: 0.875rem;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     padding: 0.75rem 1rem;
     width: 25rem;
 }
@@ -61,20 +61,20 @@ body{
     color: rgb(12, 108, 242);
     border: none;
     border-radius: 0.5rem;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     padding: 0.75rem 1rem;
     font-weight: 550;
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
-@media screen and (max-width:1092px) {
+@media screen and (max-width: 1092px) {
   #intro-section{
       background-size: 1092px 100%;
   }
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   #intro-section{
       background-size: 768px 100%;
   }
@@ -90,5 +90,17 @@ body{
 
   #centralDivContainer{
     padding: 0rem 1rem;
+  }
+
+  #inputEmail, #intro-section button{
+    line-height: 1.25rem;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  #inputEmail{
+    width: 100%;
+    max-width: 25rem;
   }
 }
