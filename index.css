@@ -1,0 +1,122 @@
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: sans-serif;
+}
+
+#intro-section{
+    background-image: url("https://www.blockchain.com/static/img/home/home-hero-gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 600px;
+    margin: 0;
+}
+
+#centralDivContainer{
+    max-width: 67rem;
+    margin: 0px auto;
+    padding: 0rem 2.5rem;
+}
+
+#centralDiv{
+    padding-top: 200px;
+    text-align: left;
+    max-width: 47rem;
+    margin: 0px auto;
+    margin-left: 0px;
+}
+
+#intro-section h1{
+    color: white;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#intro-section h3{
+    color:white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#intro-section form{
+    display: flex;
+    width: 100%;
+}
+
+#intro-section form>*{
+    border: none;
+    border-radius: 0.5rem;
+    line-height: 1.5rem;
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+}
+
+#inputEmail{
+    background-color: rgb(255,255,255,0.1);
+    color: white;
+    font-weight: 400;
+    font-size: 0.875rem;
+    max-width: 25rem;
+    display: inline;
+    margin-right: 1rem;
+}
+
+#InputEmail::placeholder{
+    color:white;
+}
+
+#intro-section button{
+    background-color: rgb(236, 245, 254);
+    color: rgb(12, 108, 242);
+    font-weight: 550;
+    font-size: 1rem;
+    display: inline;
+}
+
+@media screen and (max-width: 1092px) {
+  #intro-section{
+      background-size: 1092px 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #intro-section{
+      background-size: 768px 100%;
+      min-height: 400px;
+  }
+
+  #intro-section h1{
+    font-size: 1.5rem;
+  }
+
+  #intro-section h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  #centralDivContainer{
+    padding: 0rem 1rem;
+  }
+
+  #centralDiv{
+      padding-top: 165px;
+  }
+
+  #intro-section button, #inputEmail{
+     line-height: 1.25rem;
+     font-size: 0.875rem;
+     padding: 0.625rem 0.875rem;
+   }
+
+}
+
+@media screen and (max-width: 576px) {
+  #inputEmail{
+    max-width: 25rem;
+    min-width: 0;
+  }
+}
