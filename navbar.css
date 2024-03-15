@@ -1,0 +1,31 @@
+nav{
+  background-color: rgb(18, 29, 51);
+  border-bottom: solid rgba(160,165,173,0.3);
+  border-bottom-width: thin;
+  min-height: 5rem;
+  letter-spacing: 0.02rem;
+}
+
+nav #com{
+  color: rgb(160,165,173)
+}
+
+nav #logo{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.nav-link{
+  color: rgb(204, 210, 222) !important;
+  font-weight: 550 !important;
+  margin-left: 1.5rem;
+}
+
+.dropdown .nav-link{
+  font-weight: 700 !important;
+}
+
+nav .dropdown-menu a{
+  color: black !important;
+}
