@@ -6,11 +6,15 @@ nav{
   letter-spacing: 0.02rem;
 }
 
-nav #com{
+nav>.container-fluid{
+  max-width: 80rem;
+}
+
+#com{
   color: rgb(160,165,173)
 }
 
-nav #logo{
+#logo{
   font-size: 1.5rem;
   font-weight: 800;
   color: white;
@@ -28,4 +32,26 @@ nav #logo{
 
 nav .dropdown-menu a{
   color: black !important;
+}
+
+nav button{
+  font-size: 0.9rem !important;
+  line-height: 1.8rem !important;
+  border-width: 0.18rem !important;
+}
+
+#searchBtn{
+  border-radius: 1.5rem;
+  background-color: rgba(160,165,173,0.2);
+  border: none;
+}
+
+@media screen and (max-width: 1092px) {
+  .nav-link{
+    margin-left: 1rem;
+  }
+
+  #logo{
+    margin-right: 0;
+  }
 }
