@@ -5,7 +5,7 @@
   padding-left: 1.5rem;
   padding-top: 1rem;
   border-radius: 0.8rem;
-  left: -17.1rem;
+  left: -16.8rem;
   top: 3.4rem;
   display: none;
 }
@@ -45,13 +45,13 @@
   list-style-type: none;
   padding-left: 0.5rem;
 }
-/*
+
 @media screen and (max-width: 1092px) {
   #dropdownContainer{
-    left: -17.6rem;
+    left: -17.3rem;
   }
 }
-*/
+
 @media screen and (max-width: 992px) {
   #dropdownContainer.showSmall{
     display: block;
