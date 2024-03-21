@@ -42,6 +42,21 @@ nav button{
   border: none;
 }
 
+#searchBtn:hover{
+  background-color: rgba(160,165,173,0.4);
+}
+
+#logInBtn{
+  border: solid white 1rem;
+  color: white;
+  width: 4.5rem;
+  font-weight: 500;
+}
+
+#logInBtn:hover{
+  opacity: 0.8;
+}
+
 .navbar-toggler{
     border: none;
 }
