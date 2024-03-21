@@ -1,16 +1,14 @@
 function changeDropdownParent(mediaQuery){
   if(mediaQuery.matches){
-    console.log("large");
     $('#dropdownContainer').appendTo(".dropdown");
   }else{
-    console.log("small");
     $('#dropdownContainer').appendTo("#rightNavSection");
   }
 }
 
 $(function () {
   // Create a MediaQueryList object
-  var mediaQuery = window.matchMedia("(min-width: 992px)")
+  var mediaQuery = window.matchMedia("(min-width: 1200px)")
 
   // Attach listener function on state changes
   mediaQuery.addEventListener("change", function() {
