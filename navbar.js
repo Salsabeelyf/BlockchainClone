@@ -21,17 +21,25 @@ $(function () {
   $(".dropdown").on("click", function(){
     $(".dropdown").focus();
   });
+
+  // Show/hide dropdown when hovering over the dropdown button
   $(".dropdown").on("mouseenter",function () {
     $('#dropdownContainer').addClass('show');
   }).on("mouseleave",function () {
     $('#dropdownContainer').removeClass('show');
   });
+
+  // Show/hide dropdown when focusing on the dropdown button
   $(".dropdown").on("focus",function () {
     $('#dropdownContainer').addClass('show');
+    $('#dropdownContainer').addClass('focused');
   }).on("focusout",function () {
-    $('#dropdownContainer').removeClass('show');
+    if(!$('#dropdownContainer').hasClass('focused')){
+      $('#dropdownContainer').removeClass('show');
+    }
   });
 
+  // Show/hide dropdown when clicking over the toggler button
   $('.navbar-toggler').click(function () {
     $('#dropdownContainer').toggleClass('showSmall');
   });
@@ -44,6 +52,12 @@ $(function () {
     if($(this).hasClass('showSmall')){
       $('.navbar-toggler svg').removeClass('focused');
     }
+  });
+
+  $('#dropdownContainer').on('click',function () {
+      if(!$('#dropdownContainer').hasClass('focused')){
+        $('#dropdownContainer').addClass('focused');
+      }
   });
 
   $('#searchBtn').on('click',function(){
