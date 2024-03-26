@@ -30,7 +30,7 @@ nav>.container-fluid{
   font-weight: 700 !important;
 }
 
-nav button{
+#rightNavSection>button{
   font-size: 0.9rem;
   line-height: 1.8rem;
   border-width: 0.18rem;
