@@ -1,7 +1,7 @@
 #searchPopup {
   position: absolute;
   top: -0.16rem;
-  right: 0;
+  right: 1rem;
   width: 0;
   height: 0;
   background-color: white;

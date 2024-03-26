@@ -36,11 +36,18 @@ nav>.container-fluid{
   border-width: 0.18rem;
 }
 
+#searchContainer{
+  position: relative;
+  display: inline-block;
+}
+
 #searchBtn{
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  border-width: 0.18rem;
   border-radius: 1.5rem;
   background-color: rgba(160,165,173,0.2);
   border: none;
-  position: relative;
 }
 
 #searchBtn:hover{
