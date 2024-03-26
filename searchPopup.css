@@ -1,0 +1,107 @@
+#searchPopup {
+  position: absolute;
+  top: 1rem;
+  right: 16rem;
+  width: 0;
+  height: 0;
+  background-color: white;
+  transition-duration: 500ms;
+  transition-property: width, height;
+  transition-timing-function: cubic-bezier(.88,0,.31,1.43);
+  overflow: hidden;
+  border-radius: 1rem;
+  padding-top:
+}
+
+#searchPopup *{
+    font-size: 0.85rem;
+}
+
+#searchPopup.show{
+  width: 370px;
+  height: 280px;
+}
+
+#searchPopup .container{
+  padding: 0.5rem;
+}
+
+#searchPopup .row{
+  width: 100%;
+  margin: auto;
+  flex-wrap: nowrap;
+}
+
+#searchSVG{
+  position: absolute;
+  top: 0.6rem;
+  left: 0.8rem;
+  max-width: 35px;
+  padding: 0;
+}
+
+#searchPopup input{
+    padding-left: 3.35rem;
+    font-size: 1rem;
+    background-color: rgba(240,242,247,1);
+    border-color: rgb(240,242,247);
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+
+#searchPopup p{
+  color: rgba(82,91,109,255);
+  margin: auto;
+  padding: 1rem 0 0 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+button.vertical{
+  width: 95%;
+  border-top: solid 1px rgb(235,237,252);
+  border-radius: 0;
+  text-align: start;
+  padding-left: 0.6rem;
+  margin-left: 0.6rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+button.vertical span{
+  font-size: 0.75rem !important;
+  position: relative;
+  top: 0.05rem;
+}
+
+button.vertical svg{
+  margin-right: 0.35rem;
+}
+
+button.horizontal{
+  max-width: fit-content;
+  margin: auto;
+  background-color: rgba(240,242,247,1);
+  padding: 0.15rem 0.8rem;
+  font-size: 0.93rem !important;
+  font-weight: 500;
+  border-radius: 0.62rem;
+}
+
+button.horizontal:hover{
+  background-color: rgba(220,222,227,1);
+}
+
+button.horizontal:first-of-type{
+  margin-left: 0;
+}
+
+button.horizontal:last-of-type{
+  margin-right: 0;
+}
+
+#searchPopup foreignObject>.row{
+  position: absolute;
+  bottom: 0;
+  padding: 0.46rem;
+  background-color: rgba(240,242,247,0.5);
+}

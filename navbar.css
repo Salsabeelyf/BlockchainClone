@@ -31,9 +31,9 @@ nav>.container-fluid{
 }
 
 nav button{
-  font-size: 0.9rem !important;
-  line-height: 1.8rem !important;
-  border-width: 0.18rem !important;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  border-width: 0.18rem;
 }
 
 #searchBtn{
@@ -47,7 +47,7 @@ nav button{
 }
 
 #logInBtn{
-  border: solid white 1rem;
+  border-color: white;
   color: white;
   width: 4.5rem;
   font-weight: 500;

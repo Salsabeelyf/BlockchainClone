@@ -17,6 +17,7 @@ $(function () {
 
   changeDropdownParent(mediaQuery);
   $("#dropdownContainer").load("dropdownMenu.html");
+  $("#searchPopupPlaceHolder").load("searchPopup.html #searchPopup");
   $(".dropdown").on("click", function(){
     $(".dropdown").focus();
   });
@@ -38,5 +39,17 @@ $(function () {
   else {
       $('#dropdownContainer').removeClass('showSmall');
     }
+  });
+
+  $('#searchBtn').on('click',function(){
+    $('#searchPopup').addClass('show');
+  });
+
+  $(document).on('click',function(event){
+      var target = $(event.target);
+      if(!$(target).closest('#searchPopup').length && !$(target).closest('#searchBtn').length && $('#searchPopup').hasClass('show')){
+        console.log('hello');
+        $('#searchPopup').removeClass('show');
+      }
   });
 });
