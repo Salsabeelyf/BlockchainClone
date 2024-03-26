@@ -4,6 +4,11 @@ body{
     font-family: sans-serif;
 }
 
+#nav-placeholder{
+  position: sticky;
+  top: 0;
+}
+
 #intro-section{
     background-image: url("https://www.blockchain.com/static/img/home/home-hero-gradient.jpg");
     background-repeat: no-repeat;
