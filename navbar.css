@@ -65,7 +65,7 @@ nav>.container-fluid{
     box-shadow: none;
 }
 
-.navbar-toggler svg:hover{
+.navbar-toggler svg:hover, .navbar-toggler svg.focused{
    border-radius: 0.2rem;
    background-color: rgba(200,200,200,0.1);
 }
